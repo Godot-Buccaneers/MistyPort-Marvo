@@ -1,0 +1,82 @@
+[gd_scene load_steps=3 format=3 uid="uid://drlwl7ulhnxrk"]
+
+[ext_resource type="PackedScene" uid="uid://bybj68dvkurer" path="res://BingoBoard.tscn" id="1_32h47"]
+[ext_resource type="Script" path="res://AI Bingo Board.gd" id="2_amcf3"]
+
+[node name="AI Bingo Board" instance=ExtResource("1_32h47")]
+script = ExtResource("2_amcf3")
+
+[node name="SplitContainer" parent="ColorRect" index="1"]
+scale = Vector2(1.16807, 1)
+
+[node name="_Button_17557" parent="ColorRect/SplitContainer/GridContainer" index="0"]
+text = "4"
+
+[node name="_Button_17546" parent="ColorRect/SplitContainer/GridContainer" index="1"]
+text = "20"
+
+[node name="_Button_17567" parent="ColorRect/SplitContainer/GridContainer" index="2"]
+text = "32"
+
+[node name="_Button_17553" parent="ColorRect/SplitContainer/GridContainer" index="3"]
+text = "58"
+
+[node name="_Button_17545" parent="ColorRect/SplitContainer/GridContainer" index="4"]
+text = "74"
+
+[node name="_Button_17558" parent="ColorRect/SplitContainer/GridContainer" index="5"]
+text = "5"
+
+[node name="_Button_17560" parent="ColorRect/SplitContainer/GridContainer" index="6"]
+text = "19"
+
+[node name="_Button_17549" parent="ColorRect/SplitContainer/GridContainer" index="7"]
+text = "31"
+
+[node name="_Button_17564" parent="ColorRect/SplitContainer/GridContainer" index="8"]
+text = "51"
+
+[node name="_Button_17565" parent="ColorRect/SplitContainer/GridContainer" index="9"]
+text = "72"
+
+[node name="_Button_17562" parent="ColorRect/SplitContainer/GridContainer" index="10"]
+text = "10"
+
+[node name="_Button_17547" parent="ColorRect/SplitContainer/GridContainer" index="11"]
+text = "24"
+
+[node name="@Button@59263" parent="ColorRect/SplitContainer/GridContainer" index="13"]
+text = "48"
+
+[node name="_Button_17568" parent="ColorRect/SplitContainer/GridContainer" index="14"]
+text = "66"
+
+[node name="_Button_17555" parent="ColorRect/SplitContainer/GridContainer" index="15"]
+text = "7"
+
+[node name="_Button_17561" parent="ColorRect/SplitContainer/GridContainer" index="16"]
+text = "27"
+
+[node name="_Button_17559" parent="ColorRect/SplitContainer/GridContainer" index="17"]
+text = "40"
+
+[node name="_Button_17563" parent="ColorRect/SplitContainer/GridContainer" index="18"]
+text = "53"
+
+[node name="_Button_17551" parent="ColorRect/SplitContainer/GridContainer" index="19"]
+text = "68"
+
+[node name="_Button_17552" parent="ColorRect/SplitContainer/GridContainer" index="20"]
+text = "13"
+
+[node name="_Button_17566" parent="ColorRect/SplitContainer/GridContainer" index="21"]
+text = "25"
+
+[node name="_Button_17550" parent="ColorRect/SplitContainer/GridContainer" index="22"]
+text = "37"
+
+[node name="@Button@59247" parent="ColorRect/SplitContainer/GridContainer" index="23"]
+text = "49"
+
+[node name="_Button_17548" parent="ColorRect/SplitContainer/GridContainer" index="24"]
+text = "63"
